@@ -38,67 +38,51 @@ The dataset used (`gold_price_data.csv`) contains the following features:
 
 ---
 
-## 🚀 How to Run This Project
+## 🚀 How to Run This Project 
 
 ### ✅ Step 1: Clone this repository
-
-```bash
 git clone https://github.com/sushashank/GoldPricePrediction.git
 cd GoldPricePrediction
 
----
-
-#### ✅ Step 2: Install dependencies
-
-```bash
+### ✅ Step 2: Install dependencies
 pip install -r requirements.txt
 
----
 
-##### ✅ Step 3: Launch Jupyter Notebook
-
-...bash
+### ✅ Step 3: Launch Jupyter Notebook
 jupyter notebook
 
 ---
 
-Then open Gold price prediction.ipynb and run all the cells.
+## 📈 Sample Output
+
+-📉 Regression plot showing predicted vs actual gold prices
+
+-📊 Model accuracy metrics (R² Score, MAE, etc.)
+
+-📋 Cleaned and visualized financial data
 
 ---
 
-📈 Sample Output
-Regression plot showing predicted vs actual gold prices
-
-Model accuracy metrics (R² Score, MAE, etc.)
-
-Cleaned and visualized financial data
-
 ## 📌 Future Enhancements
-Use more advanced models (e.g., Random Forest, XGBoost)
+-Use more advanced models (e.g., Random Forest, XGBoost)
 
-Deploy as a web application using Streamlit or Flask
+-Deploy as a web application using Streamlit or Flask
 
-Add real-time prediction via live data APIs
+-Add real-time prediction via live data APIs
 
-Improve data features and normalization
+-Improve feature selection and normalization
 
-👨‍💻 Author
-Shashank Su
-🔗 GitHub: @sushashank
+---
 
-⭐️ Show Your Support
+## 👨‍💻 Author
+ Shashank Su
+ ### 🔗 GitHub: @sushashank
+
+ ---
+
+## ⭐️ Show Your Support
 If you found this project helpful, feel free to ⭐️ star the repository and share it!
 
 ---
-
-### 📌 How to Add It to GitHub:
-
-After saving this as `README.md` in your project folder:
-
-```bash
-git add README.md
-git commit -m "Add professional README"
-git push
-
 
 
