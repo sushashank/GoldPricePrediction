@@ -46,17 +46,26 @@ The dataset used (`gold_price_data.csv`) contains the following features:
 git clone https://github.com/sushashank/GoldPricePrediction.git
 cd GoldPricePrediction
 
-###✅ Step 2: Install dependencies
+---
+
+#### ✅ Step 2: Install dependencies
 
 ```bash
 pip install -r requirements.txt
 
-###✅ Step 3: Launch Jupyter Notebook
+---
+
+##### ✅ Step 3: Launch Jupyter Notebook
 
 ...bash
 jupyter notebook
 
+---
+
 Then open Gold price prediction.ipynb and run all the cells.
+
+---
+
 📈 Sample Output
 Regression plot showing predicted vs actual gold prices
 
@@ -64,7 +73,7 @@ Model accuracy metrics (R² Score, MAE, etc.)
 
 Cleaned and visualized financial data
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 Use more advanced models (e.g., Random Forest, XGBoost)
 
 Deploy as a web application using Streamlit or Flask
